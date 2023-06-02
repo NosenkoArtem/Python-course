@@ -10,6 +10,7 @@ class GamePole:
         self.n = N
         self.m = M
         self.pole = [[Cell() for _ in range(N)] for _ in range(N)]
+
     def init(self):
         # выбираем случайно M точек для расстановки мин
         self.mines_coords = random.sample([(i, j) for i in range(self.N) for j in range(self.N)], self.M)
