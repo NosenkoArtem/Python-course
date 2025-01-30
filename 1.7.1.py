@@ -19,4 +19,4 @@ class Loader:
 
 
 # эти строчки не менять!
-res = Loader.parse_format("1, 2, 3, -5, 10", Factory)
+res = Loader.parse_format("1, 2, 3, -5, 10", Factory)   
